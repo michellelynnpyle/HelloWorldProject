@@ -7,6 +7,7 @@ AC_CONFIG_SRCDIR([hello.c])
 AC_CONFIG_HEADERS([config.h])
 # make a place for auxillary files
 AC_CONFIG_AUX_DIR([build-aux])
+AC_CONFIG_MACRO_DIR([m4])
 
 # enable automake to create makefiles
 AM_INIT_AUTOMAKE([1.11 -Wall -Werror])
