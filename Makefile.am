@@ -1,2 +1,2 @@
-SUBDIRS = src
-dist_doc_DATA = README
+bin_PROGRAMS = hello
+hello_SOURCES = hello.c whine.c whine.h
